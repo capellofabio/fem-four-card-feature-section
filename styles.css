@@ -1,6 +1,6 @@
 :root {
     /* Defines the global colors */
-    --clr-grey-500: hsl(234, 12%, 34%);
+    --clr-grey-500: hsl(234, 12%, 34%); /* default color */
     --clr-grey-400: hsl(212, 6%, 44%);
     --clr-red: hsl(0, 78%, 62%);
     --clr-cyan: hsl(180, 62%, 55%);
@@ -20,3 +20,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: var(--clr-grey-500)
+}
+

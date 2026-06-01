@@ -1,3 +1,20 @@
+:root {
+    /* Defines the global colors */
+    --clr-grey-500: hsl(234, 12%, 34%);
+    --clr-grey-400: hsl(212, 6%, 44%);
+    --clr-red: hsl(0, 78%, 62%);
+    --clr-cyan: hsl(180, 62%, 55%);
+    --clr-blue: hsl(212, 86%, 64%);
+    --clr-orange: hsl(34, 97%, 64%);
+
+    /* Defines variables based on functionality */
+    --card-supervisor-border: var(--clr-cyan);
+    --card-team-builder-border: var(--clr-red);
+    --card-karma-border: var(--clr-orange);
+    --card-calculator-border: var(--clr-blue);
+    --card-card-paragraph: var(--clr-grey-400);
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -12,16 +12,62 @@
     --card-team-builder-border: var(--clr-red);
     --card-karma-border: var(--clr-orange);
     --card-calculator-border: var(--clr-blue);
-    --card-card-paragraph: var(--clr-grey-400);
+    --card-paragraph: var(--clr-grey-400);
 }
 
+/* Basic CSS reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    color: var(--clr-grey-500)
+main {
+    margin: auto;
 }
 
+body {
+    color: var(--clr-grey-500);
+    margin-top: 56px;
+}
+
+.title {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    letter-spacing: 0.25px;
+
+    .title--bold {
+        font-size: 0.938rem;
+        font-weight: bold;
+    }
+}
+
+.card {
+    border-top: 4px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card--supervisor {
+    border-color: var(--card-supervisor-border);
+}
+
+.card--team-builder {
+    border-color: var(--card-team-builder-border);
+}
+
+.card--karma {
+    border-color: var(--card-karma-border);
+}
+
+.card--calculator {
+    border-color: var(--card-calculator-border);
+}
+
+.card__title {
+    font-size: 1.25rem;
+}
+
+.card__description {
+    font-size: 0.813rem;
+    color: var(--card-paragraph);
+}

@@ -64,7 +64,8 @@ main {
 
 .card {
     border-top: 4px solid;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 40, 120, 0.15) 0px 8px 15px;
     padding: 2rem;
     margin-bottom: 2rem;
     max-width: 85%;

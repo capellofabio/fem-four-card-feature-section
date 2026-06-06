@@ -63,19 +63,23 @@ main {
 }
 
 .card {
+    width: 314px;
+    height: 250px;
+    
+    padding: 2rem;
+    padding-bottom: 8rem;
+    margin-bottom: 2rem;
+
     border-top: 4px solid;
     border-radius: 5px;
     box-shadow: rgba(0, 40, 120, 0.15) 0px 8px 15px;
-    padding: 2rem;
-    padding-bottom: 4rem;
-    margin-bottom: 2rem;
-    width: 85%;
+
     position: relative;
 
     img {
         position: absolute;
-        bottom: 15px;
-        right: 15px;
+        bottom: 32px;
+        right: 32px;
     }
 }
 

@@ -67,8 +67,16 @@ main {
     border-radius: 5px;
     box-shadow: rgba(0, 40, 120, 0.15) 0px 8px 15px;
     padding: 2rem;
+    padding-bottom: 4rem;
     margin-bottom: 2rem;
-    max-width: 85%;
+    width: 85%;
+    position: relative;
+
+    img {
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+    }
 }
 
 .card__title {

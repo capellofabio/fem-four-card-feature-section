@@ -22,29 +22,62 @@
     box-sizing: border-box;
 }
 
+body {
+    color: var(--clr-grey-500);
+    margin-top: 56px;
+}
+
 main {
     margin: auto;
 }
 
-body {
-    color: var(--clr-grey-500);
-    margin-top: 56px;
+.title-container {
+    margin: auto;
+    max-width: 90%;
 }
 
 .title {
     font-size: 1.5rem;
     line-height: 1.4;
     letter-spacing: 0.25px;
+    font-weight: 200;
 
     .title--bold {
-        font-size: 0.938rem;
-        font-weight: bold;
+        font-weight: 600;
+        display: block;
     }
+}
+
+.title, .subtitle {
+    text-align: center;
+}
+
+.subtitle {
+    margin: 16px 0 64px 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
     border-top: 4px solid;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    max-width: 85%;
+}
+
+.card__title {
+    font-size: 1.25rem;
+}
+
+.card__description {
+    font-size: 0.813rem;
+    color: var(--card-paragraph);
+    margin-bottom: 2rem;
 }
 
 .card--supervisor {
@@ -61,13 +94,4 @@ body {
 
 .card--calculator {
     border-color: var(--card-calculator-border);
-}
-
-.card__title {
-    font-size: 1.25rem;
-}
-
-.card__description {
-    font-size: 0.813rem;
-    color: var(--card-paragraph);
 }

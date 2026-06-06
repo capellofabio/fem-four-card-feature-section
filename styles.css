@@ -108,3 +108,40 @@ main {
 .card--calculator {
     border-color: var(--card-calculator-border);
 }
+
+/* Tablet Responsive */
+@media (min-width: 768px) {
+    .title {
+        font-size: 2.25rem;
+    }
+
+    .cards-container {
+        display: grid;
+        /* Columns are half of the cards' width to make the diamond shape */
+        grid-template-columns: repeat(4, 167px);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 8px;
+
+        /* Width max-content to center the grid with margin auto */
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .card--team-builder {
+        grid-column: 2 / span 2;
+    }
+
+    .card--supervisor {
+        grid-row-start: 2;
+    }
+
+    .card--karma {
+        grid-row-start: 2;
+        grid-column-start: 3;
+    }
+
+    .card--calculator {
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+}

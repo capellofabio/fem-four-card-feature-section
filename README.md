@@ -102,6 +102,5 @@ CSS Grid, in particular, still feels a little "alien" to me, but I feel like I'm
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/capellofabio)
+- Website - [Fabio Capello](https://capellofabio.github.io/fem-four-card-feature-section/)
+- Frontend Mentor - [@capellofabio](https://www.frontendmentor.io/profile/capellofabio)

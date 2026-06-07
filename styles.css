@@ -25,6 +25,7 @@
 body {
     color: var(--clr-grey-500);
     margin-top: 56px;
+    font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -160,7 +161,6 @@ main {
     .cards-container {
         grid-template-columns: repeat(3, 350px);
         grid-template-rows: repeat(4, 125px);
-        gap: 2rem;
     }
 
     .card {
